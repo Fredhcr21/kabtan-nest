@@ -101,7 +101,7 @@ export class ReservationsController {
     }
   }
 
-  @Put('/:id')
+  @Put('/cancel/:id')
   async cancelById(
     @Param('id') id: string,
     @Req() req: Request,
