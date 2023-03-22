@@ -1,7 +1,7 @@
 import { initializeApp, applicationDefault } from 'firebase-admin/app';
 
 const app = initializeApp({
-    credential: applicationDefault(),
+  credential: applicationDefault(),
 });
 
-export default app
+export default app;

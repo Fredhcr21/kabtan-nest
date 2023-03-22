@@ -1,6 +1,7 @@
-import { SeaPortsModel } from '../models';
+import { Document } from 'mongoose';
+import { SeaPortsModel } from '../modules/sea-ports/entities/sea-port.entity';
 
-export interface BoatQueryParams {
+export interface BoatQueryParams extends Document {
   boatType?: BoatType;
   seaPort?: SeaPortsModel;
   manufacturer?: string;
@@ -13,6 +14,7 @@ export interface BoatQueryParams {
   beam?: number;
   draft?: number;
   power?: number;
+  photos: string[];
 }
 
 export enum BoatType {

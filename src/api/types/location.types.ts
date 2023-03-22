@@ -1,9 +1,11 @@
-export interface GeoLocationMongoDB {
-  type: 'Point';
-  coordinates: [number, number];
+import { Document } from 'mongoose';
+
+export interface ILocation extends Document {
+  type: string;
+  coordinates: number[];
 }
 
-export interface GeoLocation {
+export interface GeoLocation extends Document {
   latitude: number;
   longitude: number;
 }

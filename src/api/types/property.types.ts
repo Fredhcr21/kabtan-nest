@@ -1,4 +1,4 @@
-import { GeoLocation, GeoLocationMongoDB } from './location.types';
+import { GeoLocation, ILocation } from './location.types';
 
 export interface PropertiesFilter {
   operation?: OperationType;
@@ -81,7 +81,7 @@ export interface Property {
   description: string;
   price: number;
   currency: Currency;
-  location: GeoLocationMongoDB | GeoLocation;
+  location: ILocation | GeoLocation;
   displayExactLocation: boolean;
   address: Address;
   photos: string[];

@@ -1,5 +1,5 @@
 import pino from 'pino';
-import config from 'src/config/app.interface';
+import config from '../config/app.interface';
 
 const logger = pino({
   name: config.name,
