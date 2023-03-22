@@ -45,6 +45,30 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+###Methods
+                    
+
+| CRUD  | Property  | Link |
+| :------------ |:---------------:| -----:|
+| GET      | seaPorts  | http://localhost:3000/seaPorts |
+| POST     | seaPorts |   http://localhost:3000/seaPorts/ |
+| PUT 		| seaPorts | http://localhost:3000/seaPorts/:id |
+| DELETE 	| seaPorts | http://localhost:3000/seaPorts/:id |
+
+| CRUD  | Property  | Link |
+| :------------ |:---------------:| -----:|
+| GET      | boats  | http://localhost:3000/boats |
+| POST     | boats |   http://localhost:3000/boats/ |
+| PUT 		| boats | http://localhost:3000/boats/:id |
+| DELETE 	| boats | http://localhost:3000/boats/:id |
+
+| CRUD  | Property  | Link |
+| :------------ |:---------------:| -----:|
+| GET      | reservations  | http://localhost:3000/reservations |
+| POST     | reservations |   http://localhost:3000/reservations/ |
+| PUT 		| reservations | http://localhost:3000/reservations/:id |
+| PUT 	| reservations | http://localhost:3000/reservations/:id |
+
 ## Test
 
 ```bash
