@@ -67,7 +67,15 @@ $ npm run start:prod
 | GET      | reservations  | http://localhost:3000/reservations |
 | POST     | reservations |   http://localhost:3000/reservations/ |
 | PUT 		| reservations | http://localhost:3000/reservations/:id |
-| PUT 	| reservations | http://localhost:3000/reservations/:id |
+| PUT 	| reservations | http://localhost:3000/reservations/cancel/:id |
+
+## Description
+
+En la ultima propiedad de `reservations` el ultimo metodo que es el **PUT**  hay una diferencia que es cancelar la reservacion y el otro metodo que igual es **PUT** es para actualizar la reservacion, entonces para quedar en claro:
+
+`http://localhost:3000/reservations/:id` es para actualizar la reservacion
+
+`http://localhost:3000/reservations/cancel/:id` es para cancelar la reservacion
 
 ## Test
 
