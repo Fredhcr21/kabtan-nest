@@ -22,4 +22,5 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'build']
+    logsBucket: kabtan-bucket
 # [END cloudbuild_npm_node]
