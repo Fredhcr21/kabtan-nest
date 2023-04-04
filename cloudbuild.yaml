@@ -22,4 +22,8 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'build']
+options:
+  logStreamingOption: STREAM_DEFAULT
+  logging: LEGACY
+logsBucket: kabtan-bucket
 # [END cloudbuild_npm_node]
