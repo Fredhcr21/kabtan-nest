@@ -18,7 +18,7 @@ import { Helpers } from '../../../helpers';
 import { CreateSeaPortDto } from './dto/create-sea-port.dto';
 import { UpdateSeaPortDto } from './dto/update-sea-port.dto';
 import { SeaPortsService } from './sea-ports.service';
-@Controller('seaPorts')
+@Controller('seaports')
 export class SeaPortsController {
   constructor(private readonly seaPortsService: SeaPortsService) {}
   @Get()
