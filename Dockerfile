@@ -18,4 +18,4 @@ COPY --from=dependencies /tmp/prod_node_modules ./node_modules
 COPY --from=build /tmp/prod_dist .
 RUN npm install nodemon pino-pretty -g
 EXPOSE 8080
-CMD [ "node", "./src/index.js" ]
+CMD [ "node", "./src/main.js" ]
